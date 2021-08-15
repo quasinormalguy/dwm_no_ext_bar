@@ -50,7 +50,7 @@ In config.def.h, default terminal is set to kitty (change to yours).
 It is advisable to read the details of the applied [[https://dwm.suckless.org/patches/][patches on suckless website]].
 
 \\
-Configurations for 3rd party bars (like polybar) can be built on top of this.
+Configurations for 3rd party bars (like [[https://github.com/mihirlad55/polybar-dwm-module][polybar]]) can be built on top of this.
 
 \\
 *Cheers!*
