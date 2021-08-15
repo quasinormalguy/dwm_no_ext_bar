@@ -47,7 +47,7 @@ sudo pacman -S imlib2
 In config.def.h, default terminal is set to kitty (change to yours).
 
 \\
-It is advisable to read the details of the applied patches on suckless website.
+It is advisable to read the details of the applied [[https://dwm.suckless.org/patches/][patches on suckless website]].
 
 \\
 Configurations for 3rd party bars (like polybar) can be built on top of this.
