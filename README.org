@@ -36,4 +36,4 @@ sudo pacman -S imlib2
 ** Configurations for 3rd party bars (like polybar) can be built on top of this.
 
 
-** Cheers!
+*Cheers!*
