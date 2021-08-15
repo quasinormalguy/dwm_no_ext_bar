@@ -44,7 +44,7 @@ sudo apt install libimlib2-dev
 sudo pacman -S imlib2
 
 \\
-In config.def.h, default terminal is set to kitty (change to yours).
+In config.def.h, default terminal is set to [[https://sw.kovidgoyal.net/kitty/binary/][kitty]] (change it to yours).
 
 \\
 It is advisable to read the details of the applied [[https://dwm.suckless.org/patches/][patches on suckless website]].
