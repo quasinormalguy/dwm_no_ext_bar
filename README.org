@@ -58,7 +58,7 @@ dwm-winicon-6.2-v1.3.diff
 
 - Another way to run autostart commands is in =config.def.h=. Here add only the commands which you want to get killed when you log out such as compositor.
 
-- Do all other required edits and run src_sh{sudo make clean install}.
+- Do all other required edits and run ~sudo make clean install~.
 
 \\
 It is advisable to read the details of the applied [[https://dwm.suckless.org/patches/][patches on suckless website]].
