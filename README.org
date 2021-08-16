@@ -38,12 +38,12 @@ dwm-winicon-6.2-v1.3.diff
 *** How-to's
 
 - For winicon patch to work Imlib2 library is needed. Install by:
-
-  src_shell{sudo apt install libimlib2-dev}
-
+  
+  src_sh{sudo apt install libimlib2-dev}
+  
   /-or-/
-
-  src_shell{sudo pacman -S imlib2}.
+  
+  src_sh{sudo pacman -S imlib2}.
 
 - In config.def.h, default terminal is set to [[https://sw.kovidgoyal.net/kitty/][kitty]] (may want change it to yours).
 
@@ -51,8 +51,7 @@ dwm-winicon-6.2-v1.3.diff
 
 - Add /dwm.desktop/ to //usr/share/xsessions// for display manager to detect.
 
-- Do all other required edits and run
-  src_shell{sudo make clean install}.
+- Do all other required edits and run src_sh{sudo make clean install}.
 
 \\
 It is advisable to read the details of the applied [[https://dwm.suckless.org/patches/][patches on suckless website]].
