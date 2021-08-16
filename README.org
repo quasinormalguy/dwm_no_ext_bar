@@ -35,7 +35,7 @@ dwm-togglefloatingcenter-20210806-138b405f.diff
 
 dwm-winicon-6.2-v1.3.diff
 
-\\
+
 *** How-to's
 
 - For winicon patch to work Imlib2 library is needed. Install by:
@@ -52,13 +52,19 @@ dwm-winicon-6.2-v1.3.diff
 
 - Add =dwm.desktop= to ~/usr/share/xsessions/~ for display manager to detect.
 
+- The =autostart.sh= script should be modified to add commands that need to be run at startup.
+
+- Another =autostart_blocking.sh= could also be created if there are some programs that you want make sure are killed before dwm starts.
+
+- Another way to run autostart commands is in =config.def.h=. Here add only the commands which you want to get killed when you log out such as compositor.
+
 - Do all other required edits and run src_sh{sudo make clean install}.
 
 \\
 It is advisable to read the details of the applied [[https://dwm.suckless.org/patches/][patches on suckless website]].
 
 \\
-Configurations for 3rd party bars (like [[https://github.com/mihirlad55/polybar-dwm-module][polybar]]) can be built on top of this.
+Configurations for 3rd party bars/panels (like [[https://github.com/mihirlad55/polybar-dwm-module][polybar]]) can be built on top of this.
 
 \\
 *Cheers!*

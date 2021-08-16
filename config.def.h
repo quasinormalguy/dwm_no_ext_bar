@@ -30,7 +30,7 @@ static const unsigned int alphas[][3]      = {
 };
 
 static const char *const autostart[] = {
-	"kitty", NULL,
+	"picom -b", NULL,
 	NULL /* terminate */
 };
 
