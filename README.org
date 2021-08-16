@@ -35,16 +35,24 @@ dwm-togglefloatingcenter-20210806-138b405f.diff
 dwm-winicon-6.2-v1.3.diff
 
 \\
-For winicon patch to work Imlib2 library is needed. Install by:
+*** How-to's
 
-sudo apt install libimlib2-dev
+- For winicon patch to work Imlib2 library is needed. Install by:
 
-/-or-/
+  src_shell{sudo apt install libimlib2-dev}
 
-sudo pacman -S imlib2
+  /-or-/
 
-\\
-In config.def.h, default terminal is set to kitty (change to yours).
+  src_shell{sudo pacman -S imlib2}.
+
+- In config.def.h, default terminal is set to [[https://sw.kovidgoyal.net/kitty/][kitty]] (may want change it to yours).
+
+- The Mod key is set as Super key.
+
+- Add /dwm.desktop/ to //usr/share/xsessions// for display manager to detect.
+
+- Do all other required edits and run
+  src_shell{sudo make clean install}.
 
 \\
 It is advisable to read the details of the applied [[https://dwm.suckless.org/patches/][patches on suckless website]].
