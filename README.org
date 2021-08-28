@@ -67,4 +67,7 @@ It is advisable to read the details of the applied [[https://dwm.suckless.org/pa
 Configurations for 3rd party bars/panels (like [[https://github.com/mihirlad55/polybar-dwm-module][polybar]]) can be built on top of this. For this reason the systray patch was not applied. I you prefer to use only dwm's bar, it will be a good idea to apply the [[https://dwm.suckless.org/patches/systray/][systray patch]] for system tray programs, and write a script for status monitor or use of one of the status monitors [[https://dwm.suckless.org/status_monitor/][listed here]].
 
 \\
+An interesting diagram showing all the patches can be found here: [[https://coggle.it/diagram/X9IiSSM6PTWOM9Wz/t/dwm-patches]].
+
+\\
 *Cheers!*
